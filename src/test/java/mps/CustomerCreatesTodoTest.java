@@ -1,7 +1,7 @@
 package mps;
 
 
-import mps.entities.Customer;
+import mps.komponenten.customer.entities.Customer;
 import mps.repositories.CustomerRepository;
 
 import org.junit.Test;

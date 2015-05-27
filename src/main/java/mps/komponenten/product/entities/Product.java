@@ -1,4 +1,4 @@
-package mps.entities;
+package mps.komponenten.product.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

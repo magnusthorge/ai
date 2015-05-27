@@ -1,6 +1,6 @@
 package mps.repositories;
 
-import mps.entities.Customer;
+import mps.komponenten.customer.entities.Customer;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
