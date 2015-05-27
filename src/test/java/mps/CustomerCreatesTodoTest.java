@@ -1,12 +1,9 @@
 package mps;
 
 
-import java.util.List;
-
 import mps.entities.Customer;
 import mps.repositories.CustomerRepository;
 
-import org.h2.engine.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

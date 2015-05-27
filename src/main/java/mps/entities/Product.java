@@ -1,15 +1,9 @@
 package mps.entities;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 
 /**
  * Representation of a user that is allowed to log into the system.
@@ -49,7 +43,7 @@ public class Product {
 	}
 
 	public void setDate(String date) {
-		this.data = data;
+		this.data = date;
 	}
 	
 	public boolean isEnabled() {

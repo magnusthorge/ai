@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 @Configuration
-@ComponentScan(basePackages = "com.mondula.training.spring.service")
+@ComponentScan(basePackages = "mps.spring.service")
 public class AppConfiguration {
 }
